@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Nebrao Autofill",
+  "version": "6.7",
+  "description": "something something",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://docs.google.com/forms/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
